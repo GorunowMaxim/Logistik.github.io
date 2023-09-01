@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link rel="stylesheet" href="aos.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Flower Fratch</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-inner">
+                    <a href="index.html" class="logo header-logo"><img src="images/icons/Logo.svg" alt="logo"></a>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="index.html"
+                                    class="text text_small text_semi-bold text__under-title nav__link">Главная</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="stocks.html"
+                                    class="text text_small text_semi-bold text__under-title nav__link">Наши склады</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="broker.html"
+                                    class="text text_small text_semi-bold text__under-title nav__link">Брокерам</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="contacts.html"
+                                    class="text text_small text_semi-bold text__under-title nav__link">Контакты</a>
+                            </li>
+                        </ul>
+                        <div class="nav-contacts">
+                            <div class="nav-contacts__item">
+                                <img src="images/icons/phone.svg" alt="phone-icon">
+                                <a href="tel:+74957378585" class="nav-contacts__text">+7 (495) 737 8585</a>
+                            </div>
+                            <div class="nav-contacts__item">
+                                <img src="images/icons/mail.svg" alt="mail-icon">
+                                <a href="mailto:ffkaragandainfo@info.ru"
+                                    class="nav-contacts__text">ffkaragandainfo@info.ru</a>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="modal">
+                        <div class="modal__row">
+                            <div class="text text_middle text_bold modal__language modal__language_active">RU</div>
+                            <img class="modal__icon" src="images/icons/cehvron-down.svg" alt="chevron-down">
+                        </div>
+                        <div class="modal-list">
+                            <div class="text text_middle text_bold modal__language">RU</div>
+                            <div class="text text_middle text_bold modal__language">Kz</div>
+                            <div class="text text_middle text_bold modal__language">Eng</div>
+                            <div class="text text_middle text_bold modal__language">Es</div>
+                        </div>
+                    </div>
+                    <div class="burger">
+                        <img class="burger__icon burger__icon_active" src="images/icons/burger.svg"
+                            alt="burger-menu-icon">
+                        <img class="burger__icon" src="images/icons/Close.svg" alt="burger-menu-icon">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="contacts-hero hero-block">
+            <div class="container">
+                <div class="contacts-hero__content hero-block__content">
+                    <p class="under-title hero-block__under-title">Flower Fracht Karaganda </p>
+                    <h1 class="h h-1 hero-block__headline">Контакты</h1>
+                </div>
+            </div>
+        </section>
+        <main class="main">
+            <section class="contacts">
+                <div class="container">
+                    <div class="contacts-content">
+                        <div class="contacts__info">
+                            <div class="contacts__cards">
+                                <div class="contacts__card" data-aos="fade-right" data-aos-delay="100">
+                                    <img src="images/icons/big-phone.svg" alt="">
+                                    <div class="contacts__card-block">
+                                        <h6 class="h h-6 contacts__card-headline">
+                                            <p>Телефон</p>
+                                            <a class="headline-link" href="#"><img src="images/icons/viber.svg"
+                                                    alt=""></a>
+                                            <a class="headline-link" href="#"><img src="images/icons/telegram.svg"
+                                                    alt=""></a>
+                                        </h6>
+                                        <a href="tel:+74957378585" class="text contacts__card-link">+7 (495) 737
+                                            8585</a>
+                                        <a href="tel:+74957378282" class="text contacts__card-link">+7 (495) 737
+                                            8282</a>
+                                    </div>
+                                </div>
+                                <div class="contacts__card" data-aos="fade-right" data-aos-delay="300">
+                                    <img src="images/icons/big-mail.svg" alt="">
+                                    <div class="contacts__card-block">
+                                        <h6 class="h h-6 contacts__card-headline">E-mail</h6>
+                                        <a href="mailto:ffkaragandainfo@info.ru"
+                                            class="text contacts__card-link">ffkaragandainfo@info.ru</a>
+                                    </div>
+                                </div>
+                                <div class="contacts__card" data-aos="fade-right" data-aos-delay="500">
+                                    <img src="images/icons/big-point.svg" alt="">
+                                    <div class="contacts__card-block">
+                                        <h6 class="h h-6 contacts__card-headline">Адрес</h6>
+                                        <a href="#" class="text contacts__card-link">Казахстан, г. Караганда, Просп.
+                                            <br>
+                                            Бухар-Жырау 59/2, офис 214</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contacts-map">
+                            <div class="contacts-map__picture">
+                                <img src="images/contacts-hero/meeting.webp" alt="">
+                            </div>
+                            <div class="map" id="map"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="group-sales">
+                <div class="container">
+                    <div class="group-sales__content">
+                        <p class="under-title group-sales__under-title">Flower Fracht Karaganda</p>
+                        <h2 class="h h-2 group-sales__headline">Группы продаж</h2>
+                        <div class="group-sales__staff">
+                            <div class="dropdown-menu">
+                                <p class="text dropdown-menu__text">Страна:</p>
+                                <div class="dropdown-menu__block">
+                                    <div class="dropdown-menu__choices">
+                                        <div class="dropdown-menu__choices-block">
+                                            <p class="text choice choice_active" data-country-name="rus">Россия</p>
+                                            <p class="text choice" data-country-name="kz">Казахстан</p>
+                                            <p class="text choice" data-country-name="blr">Бкларусь</p>
+                                        </div>
+                                        <button data-path="one"
+                                            class="dropdown-menu__button dropdown-menu__button_active"><img
+                                                src="images/icons/down-arrow.svg" alt=""></button>
+                                    </div>
+                                    <ul data-target="one" class="dropdown-menu__list">
+                                        <li class="dropdown-menu__item" data-country-choice="rus">
+                                            <p class="text dropdown-menu__item-text">Россия</p>
+                                        </li>
+                                        <li class="dropdown-menu__item" data-country-choice="kz">
+                                            <p class="text dropdown-menu__item-text">Казахстан</p>
+                                        </li>
+                                        <li class="dropdown-menu__item" data-country-choice="blr">
+                                            <p class="text dropdown-menu__item-text">Беларусь</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropdown-menu">
+                                <p class="text dropdown-menu__text">Менеджер по:</p>
+                                <div class="dropdown-menu__block">
+                                    <div class="dropdown-menu__choices">
+                                        <div class="dropdown-menu__choices-block">
+                                            <p class="text choice choice_large choice_active" data-region-name="msc">
+                                                Москве и Московской области</p>
+                                            <p class="text choice choice_large" data-region-name="spb">Санкт-Петербурге
+                                            </p>
+                                            <p class="text choice choice_large" data-region-name="ecb">Екатеринбурге</p>
+                                            <p class="text choice choice_large" data-region-name="ufa">Уфе</p>
+                                        </div>
+                                        <button data-path="two"
+                                            class="dropdown-menu__button dropdown-menu__button_active"><img
+                                                src="images/icons/down-arrow.svg" alt=""></button>
+                                    </div>
+                                    <ul data-target="two" class="dropdown-menu__list">
+                                        <li class="dropdown-menu__item">
+                                            <p class="text dropdown-menu__item-text" data-choice="msc">Москве и
+                                                Московской области</p>
+                                        </li>
+                                        <li class="dropdown-menu__item">
+                                            <p class="text dropdown-menu__item-text" data-choice="spb">Санкт-Петербурге
+                                            </p>
+                                        </li>
+                                        <li class="dropdown-menu__item">
+                                            <p class="text dropdown-menu__item-text" data-choice="ecb">Екатеринбурге</p>
+                                        </li>
+                                        <li class="dropdown-menu__item">
+                                            <p class="text dropdown-menu__item-text" data-choice="ufa">Уфе</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group-sales__swiper swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide group-sales__slide">
+                                    <div class="group-sales__slide-item slide-item">
+                                        <div class="slide-item__picture">
+                                            <img src="images/staff/img1.webp" alt="">
+                                        </div>
+                                        <div class="slide-item__info">
+                                            <div class="h h-6 slide-item__headline">Милич Олег</div>
+                                            <div class="text text_middle slide-item__sub-headline">Руководитель
+                                                направления продаж в Моской области</div>
+                                            <div class="slide-item__links">
+                                                <div class="slide-item__links-tel">
+                                                    <a href="tel:+74957378585"
+                                                        class="text slide-item__link slide-item__link_tel">+7 (495)
+                                                        737 8585</a>
+                                                    <a href="tel:+74957378282"
+                                                        class="text slide-item__link slide-item__link_tel">+7 (495)
+                                                        737 8282</a>
+                                                </div>
+                                                <a href="mailto:ffkaragandainfo@info.ru"
+                                                    class="text slide-item__link slide-item__link_mail">ffkaragandainfo@info.ru</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="group-sales__slide-item slide-item">
+                                        <div class="slide-item__picture">
+                                            <img src="images/staff/img2.webp" alt="">
+                                        </div>
+                                        <div class="slide-item__info">
+                                            <div class="h h-6 slide-item__headline">Силина Мария</div>
+                                            <div class="text text_middle slide-item__sub-headline">Руководитель
+                                                направления продаж в Москве</div>
+                                            <div class="slide-item__links">
+                                                <div class="slide-item__links-tel">
+                                                    <a href="tel:+74957378585"
+                                                        class="text slide-item__link slide-item__link_tel">+7 (495)
+                                                        737 8585</a>
+                                                </div>
+                                                <a href="mailto:ffkaragandainfo@info.ru"
+                                                    class="text slide-item__link slide-item__link_mail">ffkaragandainfo@info.ru</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide group-sales__slide">
+                                    <div class="group-sales__slide-item slide-item">
+                                        <div class="slide-item__picture">
+                                            <img src="images/staff/img1.webp" alt="">
+                                        </div>
+                                        <div class="slide-item__info">
+                                            <div class="h h-6 slide-item__headline">Милич Олег</div>
+                                            <div class="text text_middle slide-item__sub-headline">Руководитель
+                                                направления продаж в Моской области</div>
+                                            <div class="slide-item__links">
+                                                <div class="slide-item__links-tel">
+                                                    <a href="tel:+74957378585"
+                                                        class="text slide-item__link slide-item__link_tel">+7 (495)
+                                                        737 8585</a>
+                                                    <a href="tel:+74957378282"
+                                                        class="text slide-item__link slide-item__link_tel">+7 (495)
+                                                        737 8282</a>
+                                                </div>
+                                                <a href="mailto:ffkaragandainfo@info.ru"
+                                                    class="text slide-item__link slide-item__link_mail">ffkaragandainfo@info.ru</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="group-sales__slide-item slide-item">
+                                        <div class="slide-item__picture">
+                                            <img src="images/staff/img2.webp" alt="">
+                                        </div>
+                                        <div class="slide-item__info">
+                                            <div class="h h-6 slide-item__headline">Силина Мария</div>
+                                            <div class="text text_middle slide-item__sub-headline">Руководитель
+                                                направления продаж в Москве</div>
+                                            <div class="slide-item__links">
+                                                <div class="slide-item__links-tel">
+                                                    <a href="tel:+74957378585"
+                                                        class="text slide-item__link slide-item__link_tel">+7 (495)
+                                                        737 8585</a>
+                                                </div>
+                                                <a href="mailto:ffkaragandainfo@info.ru"
+                                                    class="text slide-item__link slide-item__link_mail">ffkaragandainfo@info.ru</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide group-sales__slide">
+                                    <div class="group-sales__slide-item slide-item">
+                                        <div class="slide-item__picture">
+                                            <img src="images/staff/img1.webp" alt="">
+                                        </div>
+                                        <div class="slide-item__info">
+                                            <div class="h h-6 slide-item__headline">Милич Олег</div>
+                                            <div class="text text_middle slide-item__sub-headline">Руководитель
+                                                направления продаж в Моской области</div>
+                                            <div class="slide-item__links">
+                                                <div class="slide-item__links-tel">
+                                                    <a href="tel:+74957378585"
+                                                        class="text slide-item__link slide-item__link_tel">+7 (495)
+                                                        737 8585</a>
+                                                    <a href="tel:+74957378282"
+                                                        class="text slide-item__link slide-item__link_tel">+7 (495)
+                                                        737 8282</a>
+                                                </div>
+                                                <a href="mailto:ffkaragandainfo@info.ru"
+                                                    class="text slide-item__link slide-item__link_mail">ffkaragandainfo@info.ru</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="group-sales__slide-item slide-item">
+                                        <div class="slide-item__picture">
+                                            <img src="images/staff/img2.webp" alt="">
+                                        </div>
+                                        <div class="slide-item__info">
+                                            <div class="h h-6 slide-item__headline">Силина Мария</div>
+                                            <div class="text text_middle slide-item__sub-headline">Руководитель
+                                                направления продаж в Москве</div>
+                                            <div class="slide-item__links">
+                                                <div class="slide-item__links-tel">
+                                                    <a href="tel:+74957378585"
+                                                        class="text slide-item__link slide-item__link_tel">+7 (495)
+                                                        737 8585</a>
+                                                </div>
+                                                <a href="mailto:ffkaragandainfo@info.ru"
+                                                    class="text slide-item__link slide-item__link_mail">ffkaragandainfo@info.ru</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-prev"><img src="images/icons/prev.svg" alt=""></div>
+                            <div class="swiper-button-next"><img src="images/icons/next.svg" alt=""></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="support-call">
+                <div class="container">
+                    <div class="support-call__content">
+                        <p class="under-title support-call__under-title">Flower Fracht Karaganda</p>
+                        <h2 class="h h-2 support-call__headline">Заказать звонок</h2>
+                        <p class="text support-call__text">Закажите звонок и наш менеджер свяжется с вами в ближайшее
+                            время</p>
+                        <form action="#" class="support-call__form">
+                            <input type="text" class="text text_middle support-call__input support-call__input-name"
+                                placeholder="Имя">
+                            <input type="tel" class="text text_middle support-call__input support-call__input-tel"
+                                placeholder="Номер телефона">
+                            <label for="" class="support-call__label">
+                                <input type="checkbox" class="input-rights">
+                                <span class="text text_middle input-rights__text">Даю свое согласия на обработку <br> <a
+                                        href="#">персональных данных</a></span>
+                            </label>
+                            <button class="under-title button support-call__form-button">Заказать звонок</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-row">
+                    <img src="images/icons/Logo.svg" alt="" class="logo">
+                    <div class="footer-column">
+                        <a href="index.html" class="under-title footer-link">Главная</a>
+                        <a href="stocks.html" class="under-title footer-link">Наши склады</a>
+                    </div>
+                    <div class="footer-column">
+                        <a href="broker.html" class="under-title footer-link">Брокерам</a>
+                        <a href="contacts.html" class="under-title footer-link">Контакты</a>
+                    </div>
+                    <div class="footer-column">
+                        <a href="tel:+74957378585" class="under-title footer-link footer-link_tel">+7 (495) 737 8585</a>
+                        <a href="mailto:ffkaragandainfo@info.ru"
+                            class="under-title footer-link footer-link_mail">ffkaragandainfo@info.ru</a>
+                    </div>
+                    <div class="footer-column">
+                        <p class="text text_middle footer-text">Политика конфеденциальности</p>
+                        <p class="text text_middle footer-text">Copyright © 2021 All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=1e503b66-dba2-4873-b645-0af2836ed3f6&lang=ru_RU"
+        type="text/javascript">
+        </script>
+    <script src="js/map.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/contacts.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
