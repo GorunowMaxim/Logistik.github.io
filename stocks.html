@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Flower Fratch</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-inner">
+                    <a href="index.html" class="logo header-logo"><img src="images/icons/Logo.svg" alt="logo"></a>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="index.html"
+                                    class="text text_small text_semi-bold text__under-title nav__link">Главная</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="stocks.html"
+                                    class="text text_small text_semi-bold text__under-title nav__link">Наши склады</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="broker.html"
+                                    class="text text_small text_semi-bold text__under-title nav__link">Брокерам</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="contacts.html"
+                                    class="text text_small text_semi-bold text__under-title nav__link">Контакты</a>
+                            </li>
+                        </ul>
+                        <div class="nav-contacts">
+                            <div class="nav-contacts__item">
+                                <img src="images/icons/phone.svg" alt="phone-icon">
+                                <a href="tel:+74957378585" class="nav-contacts__text">+7 (495) 737 8585</a>
+                            </div>
+                            <div class="nav-contacts__item">
+                                <img src="images/icons/mail.svg" alt="mail-icon">
+                                <a href="mailto:ffkaragandainfo@info.ru"
+                                    class="nav-contacts__text">ffkaragandainfo@info.ru</a>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="modal">
+                        <div class="modal__row">
+                            <div class="text text_middle text_bold modal__language modal__language_active">RU</div>
+                            <img class="modal__icon" src="images/icons/cehvron-down.svg" alt="chevron-down">
+                        </div>
+                        <div class="modal-list">
+                            <div class="text text_middle text_bold modal__language">RU</div>
+                            <div class="text text_middle text_bold modal__language">Kz</div>
+                            <div class="text text_middle text_bold modal__language">Eng</div>
+                            <div class="text text_middle text_bold modal__language">Es</div>
+                        </div>
+                    </div>
+                    <div class="burger">
+                        <img class="burger__icon burger__icon_active" src="images/icons/burger.svg"
+                            alt="burger-menu-icon">
+                        <img class="burger__icon" src="images/icons/Close.svg" alt="burger-menu-icon">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="stocks-hero hero-block">
+            <div class="container">
+                <div class="stocks-hero__content hero-block__content">
+                    <p class="under-title hero-block__under-title">Flower Fracht Karaganda </p>
+                    <h1 class="h h-1 hero-block__headline">Наши склады</h1>
+                </div>
+            </div>
+        </section>
+        <main class="main">
+            <section class="stocks">
+                <div class="container">
+                    <div class="stocks-content">
+                        <div class="tabs-row">
+                            <div class="tab" data-path="kz">
+                                <p class="text text_middle tab__text">Казахстан</p>
+                            </div>
+                            <div class="tab tab_active" data-path="rus">
+                                <p class="text text_middle tab__text">Россия</p>
+                            </div>
+                            <div class="tab" data-path="uzb">
+                                <p class="text text_middle tab__text">Узбекистан</p>
+                            </div>
+                            <div class="tab" data-path="azr">
+                                <p class="text text_middle tab__text">Азербайджанская</p>
+                            </div>
+                            <div class="tab" data-path="turk">
+                                <p class="text text_middle tab__text">Туркменистан</p>
+                            </div>
+                            <div class="tab" data-path="arm">
+                                <p class="text text_middle tab__text">Армения</p>
+                            </div>
+                            <div class="tab" data-path="blr">
+                                <p class="text text_middle tab__text">Беларусь</p>
+                            </div>
+                        </div>
+                        <div class="tabs-content tabs-content_active" data-target="rus">
+                            <div class="tabs-content__aside aside">
+                                <div class="aside__item">
+                                    <div class="aside__row" data-path="msc">
+                                        <img src="images/icons/point.svg" alt="">
+                                        <p class="aside__item-text">Москва</p>
+                                    </div>
+                                    <div class="aside__block aside__block_active" data-target="msc">
+                                        <div class="aside__sub-block sub-block">
+                                            <p class="text text_bold text_middle sub-block__headline sub-block__headline_active"
+                                                data-path="pet">
+                                                ул. Петра Сокола,
+                                                14</p>
+                                            <div class="sub-block__drop-down sub-block__drop-down_active"
+                                                data-target="pet">
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold text_middle sub-block__text">Режим работы:
+                                                    </p>
+                                                    <p class="text text_middle sub-block__text">Пн-Пт - с 9:00 до 18:00
+                                                        Сб-Вс - выходной</p>
+                                                </div>
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold sub-block__text">Контакты: </p>
+                                                    <p class="text text_middle sub-block__text">+57 1 567 44 87 - Олег
+                                                        +57 1 567 44 82 - Леся</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="aside__sub-block sub-block">
+                                            <p class="text text_bold text_middle sub-block__headline" data-path="len">
+                                                ул. Ленина, 18</p>
+                                            <div class="sub-block__drop-down" data-target="len">
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold text_middle sub-block__text">Режим работы:
+                                                    </p>
+                                                    <p class="text text_middle sub-block__text">Пн-Пт - с 9:00 до 18:00
+                                                        Сб-Вс - выходной</p>
+                                                </div>
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold sub-block__text">Контакты: </p>
+                                                    <p class="text text_middle sub-block__text">+57 1 567 44 87 - Олег
+                                                        +57 1 567 44 82 - Леся</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="aside__sub-block sub-block">
+                                            <p class="text text_bold text_middle sub-block__headline" data-path="push">
+                                                ул. Пушкина, 161</p>
+                                            <div class="sub-block__drop-down" data-target="push">
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold text_middle sub-block__text">Режим работы:
+                                                    </p>
+                                                    <p class="text text_middle sub-block__text">Пн-Пт - с 9:00 до 18:00
+                                                        Сб-Вс - выходной</p>
+                                                </div>
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold sub-block__text">Контакты: </p>
+                                                    <p class="text text_middle sub-block__text">+57 1 567 44 87 - Олег
+                                                        +57 1 567 44 82 - Леся</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="aside__item">
+                                    <div class="aside__row" data-path="spb">
+                                        <img src="images/icons/point.svg" alt="">
+                                        <p class="aside__item-text">Санкт-Петербург</p>
+                                    </div>
+                                    <div class="aside__block" data-target="spb">
+                                        <div class="aside__sub-block sub-block">
+                                            <p class="text text_bold text_middle sub-block__headline" data-path="pet1">
+                                                ул. Петра Сокола,
+                                                14</p>
+                                            <div class="sub-block__drop-down" data-target="pet1">
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold text_middle sub-block__text">Режим работы:
+                                                    </p>
+                                                    <p class="text text_middle sub-block__text">Пн-Пт - с 9:00 до 18:00
+                                                        Сб-Вс - выходной</p>
+                                                </div>
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold sub-block__text">Контакты: </p>
+                                                    <p class="text text_middle sub-block__text">+57 1 567 44 87 - Олег
+                                                        +57 1 567 44 82 - Леся</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="aside__sub-block sub-block">
+                                            <p class="text text_bold text_middle sub-block__headline" data-path="len1">
+                                                ул. Петра Сокола,
+                                                14</p>
+                                            <div class="sub-block__drop-down" data-target="len1">
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold text_middle sub-block__text">Режим работы:
+                                                    </p>
+                                                    <p class="text text_middle sub-block__text">Пн-Пт - с 9:00 до 18:00
+                                                        Сб-Вс - выходной</p>
+                                                </div>
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold sub-block__text">Контакты: </p>
+                                                    <p class="text text_middle sub-block__text">+57 1 567 44 87 - Олег
+                                                        +57 1 567 44 82 - Леся</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="aside__sub-block sub-block">
+                                            <p class="text text_bold text_middle sub-block__headline" data-path="push1">ул. Петра Сокола,
+                                                14</p>
+                                                <div class="sub-block__drop-down" data-target="push1">
+                                                    <div class="sub-block__info">
+                                                        <p class="text text_bold text_middle sub-block__text">Режим работы:
+                                                        </p>
+                                                        <p class="text text_middle sub-block__text">Пн-Пт - с 9:00 до 18:00
+                                                            Сб-Вс - выходной</p>
+                                                    </div>
+                                                    <div class="sub-block__info">
+                                                        <p class="text text_bold sub-block__text">Контакты: </p>
+                                                        <p class="text text_middle sub-block__text">+57 1 567 44 87 - Олег
+                                                            +57 1 567 44 82 - Леся</p>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="aside__item">
+                                    <div class="aside__row" data-path="ekb">
+                                        <img src="images/icons/point.svg" alt="">
+                                        <p class="aside__item-text">Екатеринбург</p>
+                                    </div>
+                                    <div class="aside__block" data-target="ekb">
+                                        <div class="aside__sub-block sub-block">
+                                            <p class="text text_bold text_middle sub-block__headline" data-path="ekb1">
+                                                ул. Петра Сокола,
+                                                14</p>
+                                            <div class="sub-block__drop-down" data-target="ekb1">
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold text_middle sub-block__text">Режим работы:
+                                                    </p>
+                                                    <p class="text text_middle sub-block__text">Пн-Пт - с 9:00 до 18:00
+                                                        Сб-Вс - выходной</p>
+                                                </div>
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold sub-block__text">Контакты: </p>
+                                                    <p class="text text_middle sub-block__text">+57 1 567 44 87 - Олег
+                                                        +57 1 567 44 82 - Леся</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="aside__sub-block sub-block">
+                                            <p class="text text_bold text_middle sub-block__headline" data-path="ekb2">
+                                                ул. Петра Сокола,
+                                                14</p>
+                                            <div class="sub-block__drop-down" data-target="ekb2">
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold text_middle sub-block__text">Режим работы:
+                                                    </p>
+                                                    <p class="text text_middle sub-block__text">Пн-Пт - с 9:00 до 18:00
+                                                        Сб-Вс - выходной</p>
+                                                </div>
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold sub-block__text">Контакты: </p>
+                                                    <p class="text text_middle sub-block__text">+57 1 567 44 87 - Олег
+                                                        +57 1 567 44 82 - Леся</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="aside__sub-block sub-block">
+                                            <p class="text text_bold text_middle sub-block__headline" data-path="ekb3">ул. Петра Сокола,
+                                                14</p>
+                                                <div class="sub-block__drop-down" data-target="ekb3">
+                                                    <div class="sub-block__info">
+                                                        <p class="text text_bold text_middle sub-block__text">Режим работы:
+                                                        </p>
+                                                        <p class="text text_middle sub-block__text">Пн-Пт - с 9:00 до 18:00
+                                                            Сб-Вс - выходной</p>
+                                                    </div>
+                                                    <div class="sub-block__info">
+                                                        <p class="text text_bold sub-block__text">Контакты: </p>
+                                                        <p class="text text_middle sub-block__text">+57 1 567 44 87 - Олег
+                                                            +57 1 567 44 82 - Леся</p>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="aside__item">
+                                    <div class="aside__row" data-path="ufa">
+                                        <img src="images/icons/point.svg" alt="">
+                                        <p class="aside__item-text">Уфа</p>
+                                    </div>
+                                    <div class="aside__block" data-target="ufa">
+                                        <div class="aside__sub-block sub-block">
+                                            <p class="text text_bold text_middle sub-block__headline" data-path="ufa1">
+                                                ул. Петра Сокола,
+                                                14</p>
+                                            <div class="sub-block__drop-down" data-target="ufa1">
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold text_middle sub-block__text">Режим работы:
+                                                    </p>
+                                                    <p class="text text_middle sub-block__text">Пн-Пт - с 9:00 до 18:00
+                                                        Сб-Вс - выходной</p>
+                                                </div>
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold sub-block__text">Контакты: </p>
+                                                    <p class="text text_middle sub-block__text">+57 1 567 44 87 - Олег
+                                                        +57 1 567 44 82 - Леся</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="aside__sub-block sub-block">
+                                            <p class="text text_bold text_middle sub-block__headline" data-path="ufa2">
+                                                ул. Петра Сокола,
+                                                14</p>
+                                            <div class="sub-block__drop-down" data-target="ufa2">
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold text_middle sub-block__text">Режим работы:
+                                                    </p>
+                                                    <p class="text text_middle sub-block__text">Пн-Пт - с 9:00 до 18:00
+                                                        Сб-Вс - выходной</p>
+                                                </div>
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold sub-block__text">Контакты: </p>
+                                                    <p class="text text_middle sub-block__text">+57 1 567 44 87 - Олег
+                                                        +57 1 567 44 82 - Леся</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="aside__sub-block sub-block">
+                                            <p class="text text_bold text_middle sub-block__headline" data-path="ufa3">ул. Петра Сокола,
+                                                14</p>
+                                                <div class="sub-block__drop-down" data-target="ufa3">
+                                                    <div class="sub-block__info">
+                                                        <p class="text text_bold text_middle sub-block__text">Режим работы:
+                                                        </p>
+                                                        <p class="text text_middle sub-block__text">Пн-Пт - с 9:00 до 18:00
+                                                            Сб-Вс - выходной</p>
+                                                    </div>
+                                                    <div class="sub-block__info">
+                                                        <p class="text text_bold sub-block__text">Контакты: </p>
+                                                        <p class="text text_middle sub-block__text">+57 1 567 44 87 - Олег
+                                                            +57 1 567 44 82 - Леся</p>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tabs-content__map" id="map-1"></div>
+                        </div>
+                        <div class="tabs-content" data-target="blr">
+                            <div class="tabs-content__aside aside">
+                                <div class="aside__item">
+                                    <div class="aside__row" data-path="mnsk">
+                                        <img src="images/icons/point.svg" alt="">
+                                        <p class="aside__item-text">Минск</p>
+                                    </div>
+                                    <div class="aside__block aside__block_active" data-target="mnsk">
+                                        <div class="aside__sub-block sub-block">
+                                            <p class="text text_bold text_middle sub-block__headline sub-block__headline_active"
+                                                data-path="mog">ул. Могилевская, 18</p>
+                                            <div class="sub-block__drop-down sub-block__drop-down_active"
+                                                data-target="mog">
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold text_middle sub-block__text">Режим работы:
+                                                    </p>
+                                                    <p class="text text_middle sub-block__text">Пн-Пт - с 9:00 до 18:00
+                                                        Сб-Вс - выходной</p>
+                                                </div>
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold sub-block__text">Контакты: </p>
+                                                    <p class="text text_middle sub-block__text">+57 1 567 44 87 - Олег
+                                                        +57 1 567 44 82 - Леся</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="aside__sub-block sub-block">
+                                            <p class="text text_bold text_middle sub-block__headline" data-path="mog1">
+                                                ул. Левкова, 161</p>
+                                            <div class="sub-block__drop-down" data-target="mog1">
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold text_middle sub-block__text">Режим работы:
+                                                    </p>
+                                                    <p class="text text_middle sub-block__text">Пн-Пт - с 9:00 до 18:00
+                                                        Сб-Вс - выходной</p>
+                                                </div>
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold sub-block__text">Контакты: </p>
+                                                    <p class="text text_middle sub-block__text">+57 1 567 44 87 - Олег
+                                                        +57 1 567 44 82 - Леся</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tabs-content__map" id="map-2"></div>
+                        </div>
+                        <div class="tabs-content" data-target="kz">
+                            <div class="tabs-content__aside aside">
+                                <div class="aside__item">
+                                    <div class="aside__row" data-path="krg">
+                                        <img src="images/icons/point.svg" alt="">
+                                        <p class="aside__item-text">Караганда</p>
+                                    </div>
+                                    <div class="aside__block aside__block_active" data-target="krg">
+                                        <div class="aside__sub-block sub-block">
+                                            <p class="text text_bold text_middle sub-block__headline sub-block__headline_active"
+                                                data-path="krg1">Просп.
+                                                Бухар-Жырау 59/2</p>
+                                            <div class="sub-block__drop-down sub-block__drop-down_active"
+                                                data-target="krg1">
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold text_middle sub-block__text">Режим работы:
+                                                    </p>
+                                                    <p class="text text_middle sub-block__text">Пн-Пт - с 9:00 до 18:00
+                                                        Сб-Вс - выходной</p>
+                                                </div>
+                                                <div class="sub-block__info">
+                                                    <p class="text text_bold sub-block__text">Контакты: </p>
+                                                    <p class="text text_middle sub-block__text">+57 1 567 44 87 - Олег
+                                                        +57 1 567 44 82 - Леся</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tabs-content__map" id="map"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-row">
+                    <img src="images/icons/Logo.svg" alt="" class="logo">
+                    <div class="footer-column">
+                        <a href="index.html" class="under-title footer-link">Главная</a>
+                        <a href="stocks.html" class="under-title footer-link">Наши склады</a>
+                    </div>
+                    <div class="footer-column">
+                        <a href="broker.html" class="under-title footer-link">Брокерам</a>
+                        <a href="contacts.html" class="under-title footer-link">Контакты</a>
+                    </div>
+                    <div class="footer-column">
+                        <a href="tel:+74957378585" class="under-title footer-link footer-link_tel">+7 (495) 737 8585</a>
+                        <a href="mailto:ffkaragandainfo@info.ru"
+                            class="under-title footer-link footer-link_mail">ffkaragandainfo@info.ru</a>
+                    </div>
+                    <div class="footer-column">
+                        <p class="text text_middle footer-text">Политика конфеденциальности</p>
+                        <p class="text text_middle footer-text">Copyright © 2021 All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=1e503b66-dba2-4873-b645-0af2836ed3f6&lang=ru_RU"
+        type="text/javascript">
+        </script>
+    <script src="js/map.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/stocks.js"></script>
+</body>
+
+</html>
